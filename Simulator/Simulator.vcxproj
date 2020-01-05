@@ -151,6 +151,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DigitalCircuit.h" />
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="Simulator.h" />
+    <ClInclude Include="Writter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DigitalCircuit.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="Reader.cpp" />
+    <ClCompile Include="Simulator.cpp" />
+    <ClCompile Include="Writter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
